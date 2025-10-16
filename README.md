@@ -83,14 +83,4 @@ In your `contactus.html`, set the form's `action` to your Invoke URL:
 ```html
 <form action="https://your-api-gateway-url/prod/dev" method="post">
 
-### **5️⃣ Test Your Application
-Open the API Gateway URL in a browser.
-
-Fill out the contact form and submit.
-
-You’ll be redirected to the success page.
-
-Check DynamoDB → your submitted data should appear in the table.
-
-
 
