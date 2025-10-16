@@ -78,7 +78,7 @@ Before you start, make sure you have:
 
 ### **4️⃣ Update the Form Action**
 
-In your `contactus.html`, set:
+In your `contactus.html`, set the form's `action` to your Invoke URL:
 
 ```html
 <form action="https://your-api-gateway-url/prod/dev" method="post">
