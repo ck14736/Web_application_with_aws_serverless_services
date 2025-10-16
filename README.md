@@ -81,7 +81,7 @@ In your `contactus.html`, set:
 ```html
 <form action="https://your-api-gateway-url/prod/dev" method="post">
 
-5️⃣ Test Your Application
+### **5️⃣ Test Your Application
 
 Open the API Gateway URL in a browser
 
