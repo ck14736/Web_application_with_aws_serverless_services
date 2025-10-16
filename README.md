@@ -76,9 +76,10 @@ Before you start, make sure you have:
 
 ---
 
-```markdown
 ### **4️⃣ Update the Form Action**
+
 In your `contactus.html`, set:
+
 ```html
 <form action="https://your-api-gateway-url/prod/dev" method="post">
 5️⃣ Test Your Application
