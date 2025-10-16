@@ -76,20 +76,19 @@ Before you start, make sure you have:
 
 ---
 
+```markdown
 ### **4️⃣ Update the Form Action**
 In your `contactus.html`, set:
 ```html
 <form action="https://your-api-gateway-url/prod/dev" method="post">
+5️⃣ Test Your Application
+Open the API Gateway URL in a browser.
 
-### **5️⃣ Test Your Application
+Fill out the contact form and submit.
 
-Open the API Gateway URL in a browser
+You’ll be redirected to the success page.
 
-Fill out the contact form and submit
-
-You’ll be redirected to the success page
-
-Check DynamoDB → your submitted data should appear in the table
+Check DynamoDB → your submitted data should appear in the table.
 
 
 
