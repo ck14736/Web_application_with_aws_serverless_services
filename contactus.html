@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #555;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 15px;
+    }
+
+    input:focus,
+    textarea:focus {
+      border-color: #4caf50;
+      outline: none;
+      box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      border: none;
+      transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    /* Simple hover animation for the form */
+    form:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 18px;
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Welcome to my AWS Project Task</h2>
+
+  <form action="/dev" method="post">
+    <h2>Contact Us</h2>
+
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+
+    <label for="email">Email ID:</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Write your message here..." rows="4" cols="50" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <footer>
+    An AWS Project by Chirag Kanzariya
+  </footer>
+
+  <script>
+    // Optional user feedback before submission
+    document.querySelector('form').addEventListener('submit', () => {
+      alert('Submitting your details...');
+    });
+  </script>
+
+</body>
+</html>
